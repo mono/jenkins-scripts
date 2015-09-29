@@ -1,4 +1,3 @@
-node {
     stage '*** checkout'
     git 'https://github.com/mono/mono.git'
     stage '*** configure'
@@ -33,4 +32,3 @@ node {
             currentBuild.result = 'UNSTABLE'
         }
     }
-}
