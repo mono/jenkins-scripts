@@ -1,3 +1,4 @@
+ws {
 parallel debian-amd64: {
     node('debian-amd64') {
         load 'test-mono-mainline-MATRIX.groovy'
@@ -20,3 +21,4 @@ parallel debian-amd64: {
     }
 }, 
 failFast: false
+}
